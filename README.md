@@ -43,9 +43,8 @@ To process these URLs with the script, run the following command:
 The script will output the following:
 
 ```
-URL: https://www.example.com/path/to/page
-Absolute path: https://www.example.com/
-Absolute path: https://www.example.com/path/
-Absolute path: https://www.example.com/path/to/
-Absolute path: https://www.example.com/path/to/page/
+https://www.example.com/
+https://www.example.com/path/
+https://www.example.com/path/to/
+https://www.example.com/path/to/page/
 ```
