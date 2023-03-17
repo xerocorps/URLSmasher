@@ -27,7 +27,6 @@ for url in urls:
     abs_paths = [os.path.join("/", "/".join(subdirs[:i+1])) for i in range(len(subdirs))]
     
     # Print the absolute paths for each variant, with the URL prefix added
-    print(f"URL: {url}")
     for abs_path in abs_paths:
-        print(f"Absolute path: {url}{abs_path}")
+        print(f"{url}{abs_path}")
     print()
